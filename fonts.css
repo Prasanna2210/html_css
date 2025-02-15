@@ -1,0 +1,17 @@
+@font-face { 
+    src: url(fonts/Lobster);
+    font-family: 'Lobster';
+}
+@font-face {
+    src: url(fonts/Bebas_Neue/);
+    font-family: 'Bebas_Neue';
+}
+h1 {
+    font-family: 'Lobster', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-family:'Bebas_Neue', 'Lucida Sans Regular',  'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-style:italic
+}

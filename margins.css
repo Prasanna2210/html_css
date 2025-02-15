@@ -1,0 +1,22 @@
+body {
+    margin:10px;
+}
+/* when we try to load webpage the para in webpage stating immedietly starting of the page */
+.box{
+    border: 3px dashed;  /* border can be dashed dotted*/
+    font-size: 5em;    /* font size can be in px,em,rem  font-size: This sets the size of the font inside elements with the class box. The size is 5em, which means 5 times the current font size of the parent element. em is a relative unit that scales with the font size of the parent element. */
+    width: 500px;       /* width: This sets the width of elements with the class box to 250px.*/
+    height: 200px;      /* height: This sets the height of elements with the class box to 250px.*/
+    margin: 50px;      /* margin: This sets the margin of elements with the class box to 50px. */
+}
+#box1 {
+    background-color: pink;
+    margin-top: 50px; 
+    margin-left: auto;
+   
+}
+#box2 {
+    background-color: rgb(222, 71, 96);
+    margin-left: 50px; 
+    margin: auto; 
+}

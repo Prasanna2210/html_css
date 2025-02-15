@@ -1,0 +1,13 @@
+h1 {
+    text-shadow: 2px 2px 1px  rgb(221, 24, 24),3px -2px 1px  rgb(56, 187, 123);
+}
+/* the first is for the horizontal offset if we increase the number the shadow will move right side */
+/* the second number is for vertical offset  */
+/* third number is for blur radius  */
+/* colors of the shadow can be separated by comma */
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(225, 187, 222);
+    box-shadow: 5px 5px 7px rgb(155, 184, 200);
+}

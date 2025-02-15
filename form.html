@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <!-- action="index.php": This attribute specifies the URL where the form data will be sent when the form is submitted. In this case, the data will be sent to index.php.
+         method="post": This attribute specifies the HTTP method to be used when submitting the form. The post method sends the form data as part of the request body, which is more secure for sensitive data compared to the get method, which appends the data to the URL.
+         enctype="multipart/form-data": This attribute specifies how the form data should be encoded when submitting it to the server. The multipart/form-data value is used when the form includes file uploads, allowing binary data to be sent to the server.
+        -->
+
+
+        <form action="index.php" method="post" enctype="multipart/form-data">
+
+            <label for="fname">username: </label>
+            <input type = "text" id = "fname" placeholder="prasanna" minlength=""6 maxlength="15" required> <br> <br>
+
+            <label for="pass">Password: </label>
+            <input type="password" id="pass" minlength="8" maxlength="15" required> <br> <br>
+
+            <label for="email" >Email: </label>
+            <input type="email"id="email" required> <br> <br>
+
+            <label for="Phone" >PhoneNumber: </label>
+            <input type="tel" id="Phone" placeholder="123-456-7890" pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}"> <br> <br>
+
+            <label for="DateOfBirth">DateOfBirth: </label>
+            <input type="date" id="DdateOfBirth" required> <br> <br>
+            
+            <!-- if user buying something then how many they want can be represented by quantity-->
+            <label for="Quantity">Quantity: </label>
+            <input type="number" id="Quantity" min="0" max="99"> <br> <br>
+
+            <label for="Gender">Gender</label>
+
+            <label for="Male">Male</label>
+            <input type="radio" id = "Male" value="Male" name="Gender"> <!--if we write name="title" then all three belongs to same group so then we can select only one radio button at a time otherwise we can select all three -->
+            <label for="Female">Female</label>
+            <input type="radio" id = "Female" value="Female" name="Gender">
+            <label for="Other">Other</label>
+            <input type="radio" id = "Other" value="Other" name="Gender"> <br> <br>
+
+            <label for="file">UploadFiles: </label>
+            <input type="file" id="file" accept="image/*" multiple> <br> <br>
+
+            <label for="payment">payment: </label>
+            <select id="payment" required>
+                <option value="creditCard">creditcard</option>
+                <option value="Debitcard">Debitcard</option>
+                <option value="Phonepay">phonepay</option>
+            </select>
+            <br> <br>
+
+            <label for="Subscibe">Subscribe</label>
+            <input type="checkbox" id="Subscribe"> <br> <br>
+
+            <label for="comment">Comment</label>
+            <textarea id="comment" rows="4" cols="50" placeholder="Enter your comment here"></textarea> <br> <br>
+            
+            <input type = "reset"> <br> <br>
+            <input type = "submit"> <br> <br>
+        </form>
+    </body>
+</html>

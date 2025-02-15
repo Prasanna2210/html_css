@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form action="index.php" method="post" enctype="multipart/form-data">
+            <table>
+                <tr>
+                    <td><label for="fname">Username: </label></td>
+                    <td><input type="text" id="fname" placeholder="prasanna" minlength="6" maxlength="15" required></td>
+                </tr>
+                <tr>
+                    <td><label for="pass">Password: </label></td>
+                    <td><input type="password" id="pass" minlength="8" maxlength="15" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email: </label></td>
+                    <td><input type="email" id="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="Phone">Phone Number: </label></td>
+                    <td><input type="tel" id="Phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></td>
+                </tr>
+                <tr>
+                    <td><label for="DateOfBirth">Date of Birth: </label></td>
+                    <td><input type="date" id="DateOfBirth" required></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
