@@ -1,0 +1,11 @@
+div {
+    border: 2px solid;
+    height: 75px;
+    overflow: auto;  /*by ddefault overflow is said to be 1 when we write overflow: visivle then it may appear out of the box otherwise 
+    when we write hidden then the content out of the box will not appear it may disapper even if it is hidden when we copy it and paste it in any =wjere we can get full content
+    clip is siimilar to hidden but we can set how far the content can displayed 
+    scroll is used when there is more content scroll bar will appear even if there is less content 
+    for this problem if we  write auto it depends on the content if ther is more content outof the box then scroll bar will appeaar otherwise not*/
+    /* overflow-clip-margin: 13px;   */
+    /*it is used to set the margin of the content*/
+}
