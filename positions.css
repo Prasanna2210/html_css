@@ -1,0 +1,21 @@
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: plum;
+    position: static;   /* by making positon rrelative we can place that box anywhere in webpage */
+    top: 0px;
+    left: 0px;   
+   /* position: fixed;   /*by making position it will default to left side but we can change that to right side by using right:0px;*/
+    /*right:0px; */
+}
+#box2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(139, 204, 176);
+    position: absolute; 
+    top: 50px;
+    left: 50px;
+}
+
+
+/* in future we can change positions dynamically it can possible by using static*/

@@ -1,0 +1,11 @@
+body {
+    background-image: url(images/MyImage.jpeg);
+    width: 100%;
+    min-height: 100vh;
+    background-size: scroll;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:0;
+}

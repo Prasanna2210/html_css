@@ -1,0 +1,17 @@
+.container {
+    background-color: aquamarine;
+    height : 300vh;
+}
+.box {
+    /* margin-left: 20px; */
+    box-sizing: border-box;  /*it is used to set the border inside the box*/
+    border: 2px solid;
+    height: 100px;    /* if we write some number then it may be sufficient or insufficient so it is better to use height: auto*/
+    height: auto;
+    /* margin-bottom: 20px; */
+    padding: 25px;   /*padding is used to set the space between the border and the content*/
+    width:300px;   /*we can write width to auto also*/
+    float: right;   /*if we write left then the content will be placed in left side of the box*/
+    text-align:center;
+    min-width: 50%;   /*min height is also there*/
+} 

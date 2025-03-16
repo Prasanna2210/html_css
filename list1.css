@@ -1,0 +1,9 @@
+li:hover {
+    background-color: yellowgreen;
+}
+li:not(:hover) {
+    background-color: gray;
+}
+li:nth-child(4n) {      /* here we can write 4n, 3n otherwise we cn write single numbers also*/
+    background-color: brown;
+}

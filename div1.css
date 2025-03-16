@@ -1,0 +1,9 @@
+#Greetings p {
+    background-color: aquamarine;
+    padding: 10px;
+    display: none;
+}
+#Greetings:hover p {
+    display: block;    
+}
+/* by writing this part it will display when we place cursor int hat particular area*/

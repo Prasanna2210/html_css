@@ -1,0 +1,10 @@
+#container {
+    border: 4px solid;
+    /* border-color: aquamarine; */
+    /* border-width: 2px; */
+}
+#container > p {
+    background-color: aqua;
+}
+
+/* this is #p3 will be a grand child to div so when we write '>' this is #p3 will not be highlighted*/

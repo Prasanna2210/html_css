@@ -1,0 +1,22 @@
+div {
+    background-color:rgb(143, 152, 165);
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    visibility:hidden;
+    /* visibility:visible;  when we write hidden then box will not appear but the place for that will be allocated */
+}
+span {
+    background-color: rgb(217, 156, 156);
+    width: 200px;
+    height: 200px;
+    display: inline;
+}
+/* as div is block level element it takes enntire block 
+and span is an inline element it takes only the content 
+when we write properties like width and height change will appear in div block
+but there will be no change in span
+but we can change the property by using display
+    if we use it in div block no change will appear
+    if we use display in span then span property will chnage 
+display property may be inline, block, */
